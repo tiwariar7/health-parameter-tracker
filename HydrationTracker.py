@@ -16,4 +16,4 @@ class HydrationTracker:
         self.intake_log.append(amount_ml)
       
     def get_total_intake(self):
-        return self.total_intake_ml      
+        return self.total_intake_ml
