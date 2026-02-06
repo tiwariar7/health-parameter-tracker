@@ -17,3 +17,7 @@ class HydrationTracker:
       
     def get_total_intake(self):
         return self.total_intake_ml
+
+    def remaining_intake(self):
+        remaining = self.RECOMMENDED_INTAKE_ML - self.total_intake_ml
+        return max(0, remaining)
